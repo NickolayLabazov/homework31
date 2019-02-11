@@ -1,8 +1,8 @@
+import hero from './function';
+
 const hero1 = {
-	name: 'Маг',
-	health: 90
-}
+  name: 'Маг',
+  health: 90,
+};
 
-import {hero} from 'function.js';
-
-document.write (hero(hero1)); 
+console.log(hero(hero1));
